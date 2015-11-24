@@ -1,4 +1,4 @@
-@charset "UTF-8";
+<div style="color:#0000FF">@charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
 
@@ -126,7 +126,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #414f57;
+		color: #3F5A9C;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
