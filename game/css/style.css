@@ -1,0 +1,25 @@
+body{
+   background-image: url("https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fth03.deviantart.net%2Ffs70%2FPRE%2Fi%2F2012%2F267%2F6%2F8%2Fminecraft___herobrine_by_johntuley-d5fnkys.png&f=1");
+  background-size: cover;
+  font-family: 'Poiret One', cursive;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.titleText {
+  margin: 25% auto;
+  margin-top: 10%;
+}
+
+.startButton {
+  font-size: 5em;
+   margin-left: 37%;
+  text-decoration: none;
+  color: black;
+  background: red;
+  padding: 10px 40px;
+}
+
