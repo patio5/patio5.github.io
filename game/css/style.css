@@ -5,7 +5,7 @@ body{
 }
 
 h1 {
-  text-align: center;
+  text-align: center;     
   color: #fff;
 }
 
@@ -23,3 +23,16 @@ h1 {
   padding: 10px 40px;
 }
 
+#hero {
+  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFmGVaO8uBlzs54SdCQQDKN9F__NA4SD7fy2KI0TZRHTT6Wemj7A");
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+}
+
+#hero2 {
+  background-image: url("https://www.google.com.hk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwilweOthsfKAhUKnJQKHRZdA5UQjRwIBw&url=http%3A%2F%2Fwww.fps-x-games.com%2F2013_06_01_archive.html&psig=AFQjCNFEsduW1b0PYUjBrNC_9C7hThmT3Q&ust=1453882972948396  ");
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+}
