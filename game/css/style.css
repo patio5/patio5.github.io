@@ -1,7 +1,14 @@
-body{
+body {
+  font-family: 'Poiret One', cursive;
+}
+
+#splashback {
    background-image: url("https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fth03.deviantart.net%2Ffs70%2FPRE%2Fi%2F2012%2F267%2F6%2F8%2Fminecraft___herobrine_by_johntuley-d5fnkys.png&f=1");
   background-size: cover;
-  font-family: 'Poiret One', cursive;
+}
+
+#gameback {
+  background-color: black
 }
 
 h1 {
@@ -28,11 +35,17 @@ h1 {
   background-size: cover;
   width: 180px;
   height: 180px;
+  position: absolute;
+  top: 20px;
+  left: 900px;
 }
 
 #hero2 {
-  background-image: url("https://www.google.com.hk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwilweOthsfKAhUKnJQKHRZdA5UQjRwIBw&url=http%3A%2F%2Fwww.fps-x-games.com%2F2013_06_01_archive.html&psig=AFQjCNFEsduW1b0PYUjBrNC_9C7hThmT3Q&ust=1453882972948396  ");
+  background-image: url("http://piq.codeus.net/static/media/userpics/piq_82344_400x400.png");
   background-size: cover;
   width: 180px;
   height: 180px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }
