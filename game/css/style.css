@@ -31,7 +31,9 @@ h1 {
 }
 
 #hero {
-  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFmGVaO8uBlzs54SdCQQDKN9F__NA4SD7fy2KI0TZRHTT6Wemj7A");
+  -webkit-animation: mymove 2s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 2s infinite;
+  background-image: url("http://s23.postimg.org/f05htkunv/Herobrine_Pose.png");
   background-size: cover;
   width: 180px;
   height: 180px;
@@ -41,11 +43,40 @@ h1 {
 }
 
 #hero2 {
-  background-image: url("http://piq.codeus.net/static/media/userpics/piq_82344_400x400.png");
+  -webkit-animation: mymove 1.8s infinite;
+  animation: mymove 1.80s infinite;
+  background-image: url("http://img09.deviantart.net/75ff/i/2015/137/5/2/steve_3d_fan_art_by_kt02darksketcher-d8tskph.png");
   background-size: cover;
   width: 180px;
   height: 180px;
   position: absolute;
   bottom: 20px;
   left: 20px;
+}
+
+#dropthingy {
+  background-image: url("http://icon.softwares7.com/32x32/6/149/1324459.9c81788c6cbf7822d5c851fba705d017.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50px;
+  opacity: 0;
+  left: 0;
+  -webkit-animation: mymove 0.80s infinite;
+  animation: mymove 0.80s infinite;
+  transition: top 2s ease;
+}
+
+.newclass {
+  top: 500px !important;
+  opacity: 1 !important;
+  display: block;
+  transition: all 1s ease;
+}
+
+@keyframes mymove {
+    0% {left: 0px;}
+    50% {left: 500px;}
+    100% {left: 0px;}
 }
