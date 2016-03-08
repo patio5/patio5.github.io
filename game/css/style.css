@@ -54,7 +54,7 @@ h1 {
   left: 20px;
 }
 
-#dropthingy {
+#dropthingy1 {
   background-image: url("http://icon.softwares7.com/32x32/6/149/1324459.9c81788c6cbf7822d5c851fba705d017.png");
   background-size: cover;
   width: 50px;
@@ -68,7 +68,66 @@ h1 {
   transition: top 2s ease;
 }
 
+#dropthingyg {
+  background-image: url("http://icon.softwares7.com/32x32/6/149/1324459.9c81788c6cbf7822d5c851fba705d017.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50px;
+  opacity: 0;
+  left: 10%;
+  -webkit-animation: mymove 0.80s infinite;
+  animation: mymove 0.80s infinite;
+  transition: top 2s ease;
+}
+
+#dropthingyy {
+  background-image: url("http://icon.softwares7.com/32x32/6/149/1324459.9c81788c6cbf7822d5c851fba705d017.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50px;
+  opacity: 0;
+  left: 22%;
+  -webkit-animation: mymove 0.80s infinite;
+  animation: mymove 0.80s infinite;
+  transition: top 2s ease;
+}
+
+
+#dropthingy8 {
+  background-image: url("http://icon.softwares7.com/32x32/6/149/1324459.9c81788c6cbf7822d5c851fba705d017.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50px;
+  opacity: 0;
+  left: 6%;
+  -webkit-animation: mymove 0.80s infinite;
+  animation: mymove 0.80s infinite;
+  transition: top 2s ease;
+}
+
+#dropthingyh {
+  background-image: url("http://icon.softwares7.com/32x32/6/149/1324459.9c81788c6cbf7822d5c851fba705d017.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50px;
+  opacity: 0;
+  left: 91%;
+  -webkit-animation: mymove 0.80s infinite;
+  animation: mymove 0.80s infinite;
+  transition: top 2s ease;
+}
+
 .newclass {
+  animation: none !important;
+  -webkit-animation: none !important;
   top: 500px !important;
   opacity: 1 !important;
   display: block;
